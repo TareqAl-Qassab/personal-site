@@ -1,0 +1,327 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* My Code */
+
+body{
+    font-family: sans-serif;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+
+.toppart{ 
+    width: 100%;
+    
+    height: 725px;
+    background-color: #D04848;
+    /* background-position: fixed; */
+    color: #F3B95F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 10px solid black; */
+}
+
+
+/* TOP PART CSS */
+.toppart h1{
+    font-size: 80px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.toppart h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    /* border: 10px solid black; */
+    
+}
+
+.laptop{
+    margin-right: 20px;
+    height: 50px;
+}
+
+.code{
+    margin-right: 20px;
+    height: 50px;
+
+}
+
+.braces{
+    margin-right: 20px;
+    height: 50px;
+
+}
+
+.hourglass{
+    height: 50px;
+}
+
+
+
+
+/* Profile INFO CSS*/
+.profileinfo{
+    background-color: #F3B95F;
+    width: 100%;          /* changed from 100%*/
+    height: 725px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 10px solid black; */
+}
+
+.profilepic{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    
+}
+
+.profileinfo h1{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 50px;
+    color:#D04848;
+
+}
+
+.profileinfo p{
+    font-size: 25px;
+    color:#D04848;
+    text-align: center;
+}
+
+/* My Skills section CSS*/
+.myskills{
+    background-color: #D04848;
+    width: 100%;
+    
+    height: 600px;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    /* text-align: left; */
+    /* border: 10px solid black; */
+    
+}
+
+.left-div .right-div{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.myskills h1{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 50px;
+    color:#FDE767;
+    list-style-type: none;
+    padding: 0%;
+    /* border: 10px solid black; */
+}
+
+.myskills li{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #FDE767;
+    font-size: 25px;
+    /* border: 10px solid black; */
+    
+}
+
+.left-div img{
+    width: 500px;
+    height: 500px;
+}
+.skill-img img{
+    height: 350px;
+    /* border-radius: 50%; */
+    /* border: 10px solid black; */
+}
+
+.myskills .icons{
+    padding-top: 20px;
+}
+
+/* Contact me CSS */
+.contacts{
+    background-color: #FDE767;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* border: 10px solid black; */
+}
+.contacts h1{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 50px;
+    color:#D04848;
+    margin-top: 50px;
+    /* border: 10px solid black; */
+}
+
+
+
+.footer{
+    background-color:#6895D2;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* border: 10px solid black; */
+}
+
+.footer h1{
+    /* margin-top: 50px; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FDE767;
+}
+.footer img{
+    height: 40px;
+}
+
+
+
+/* Media Queries */
+@media (max-width:480px){
+    
+    .toppart h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .toppart h3{
+        font-size: 20px;
+    }
+
+    .icons .laptop{
+        height: 30px;
+    }
+
+    .icons .code{
+        height: 30px;
+    }
+
+    .icons .braces{
+        height: 30px;
+    }
+
+    .icons .hourglass{
+        height: 30px;
+    }
+
+
+    .myskills h1{
+        font-size: 40px;
+    }
+
+    .left-div img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .profileinfo h1{
+        font-size: 40px;
+    }
+
+    .profilepic{
+        height: 200px;
+        width: 200px;
+    }
+    .profileinfo p{
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contacts h1{
+        font-size: 40px;
+    }
+}
+
+/* @media (min-width: 320px) and (max-width: 480px){
+
+} */
+
+
+
+@media (max-width:760px){
+    .profileinfo p{
+        font-size: 25px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .left-div img{
+        width: 250px;
+        height: 250px;
+    }
+}
